@@ -9,7 +9,6 @@ COPY package.json ./
 
 #Install Packages
 RUN npm install express --save
-RUN npm install mysql --save
 
 #Copy the app
 COPY . ./
